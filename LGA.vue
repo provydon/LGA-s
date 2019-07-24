@@ -1,10 +1,10 @@
 <template>
     <div class="container">
-        <div class="row mt-89">
+        <div class="row">
             <div class="form-group col-md-6">
                 <label for="state" class="form-label">State of Origin</label>
                 <select type="text1" id="state" v-model="origin" class="form-control gaminators" @change="selectState()">
-                    <option :value="null" disabled selected>— Select State —</option>
+                    <option :value="null" disabled selected>ï¿½ Select State ï¿½</option>
                     <option value='Abia'>Abia</option>
                     <option value='Adamawa'>Adamawa</option>
                     <option value='AkwaIbom'>AkwaIbom</option>
@@ -128,7 +128,7 @@ export default {
             var data = ['Ado Ekiti', 'Efon', 'Ekiti East', 'Ekiti South-West', 'Ekiti West', 'Emure', 'Gbonyin', 'Ido Osi', 'Ijero', 'Ikere', 'Ikole', 'Ilejemeje', 'Irepodun-Ifelodun', 'Ise-Orun', 'Moba', 'Oye'];
             break;
                 case "Rivers":
-            var data = ['Port Harcourt', 'Obio-Akpor', 'Okrika', 'Ogu–Bolo', 'Eleme', 'Tai', 'Gokana', 'Khana', 'Oyigbo', 'Opobo–Nkoro', 'Andoni', 'Bonny', 'Degema', 'Asari-Toru', 'Akuku-Toru', 'Abua–Odual', 'Ahoada West', 'Ahoada East', 'Ogba–Egbema–Ndoni', 'Emohua', 'Ikwerre', 'Etche', 'Omuma'];
+            var data = ['Port Harcourt', 'Obio-Akpor', 'Okrika', 'Oguï¿½Bolo', 'Eleme', 'Tai', 'Gokana', 'Khana', 'Oyigbo', 'Opoboï¿½Nkoro', 'Andoni', 'Bonny', 'Degema', 'Asari-Toru', 'Akuku-Toru', 'Abuaï¿½Odual', 'Ahoada West', 'Ahoada East', 'Ogbaï¿½Egbemaï¿½Ndoni', 'Emohua', 'Ikwerre', 'Etche', 'Omuma'];
             break;
             case "Enugu":
             var data =  ['Aninri', 'Awgu', 'Enugu East', 'Enugu North', 'Enugu South', 'Ezeagu', 'Igbo Etiti', 'Igbo Eze North', 'Igbo Eze South', 'Isi Uzo', 'Nkanu East', 'Nkanu West', 'Nsukka', 'Oji River', 'Udenu', 'Udi', 'Uzo Uwani'];
