@@ -1,0 +1,48 @@
+North Central
+Benue
+Kogi
+Kwara
+Nasarawa
+Niger
+Plateau
+Federal Capital Territory
+
+North East
+Adamawa
+Bauchi
+Borno
+Gombe
+Taraba
+Yobe
+
+North West
+Jigawa
+Kaduna
+Kano
+Katsina
+Kebbi
+Sokoto
+Zamfara
+
+South East
+Abia
+Anambra
+Ebonyi
+Enugu
+Imo
+
+South South 
+Akwa Ibom
+Bayelsa
+Cross River
+Rivers
+Delta
+Edo
+
+South West
+Ekiti
+Lagos
+Ogun
+Ondo
+Osun
+Oyo
